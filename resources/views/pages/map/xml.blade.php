@@ -1,0 +1,1 @@
+<markers><?php $i=1;?>@foreach($markers as $marker)<marker id='{{$i++}}' name='{{preg_replace("/[^A-Za-z0-9?! .]/","",$marker->name)}}' location='{{$marker->name}}' lat='{{$marker->lat}}' lang='{{$marker->lang}}' type='{{$marker->type}}' dist='{{$marker->name}}'/>@endforeach</markers>
